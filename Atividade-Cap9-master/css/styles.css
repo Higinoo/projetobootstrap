@@ -1,0 +1,158 @@
+* {
+    font-family: 'Open Sans', sans-serif;   
+    
+}
+
+body {
+    background-color: #292828e7;
+}
+
+:root {
+    --bg-blue-1: #00Ff00;
+    --bg-blue-2: #F6F9FF;
+    --bg-blue-3: #6583b9;
+    --bg-dark-1: #262626;
+    --margin-top: 100px;
+}
+
+button:focus {
+    box-shadow: 0;
+}
+
+.mb-4 {
+    color: #c7c7c7;
+}
+
+.btn {
+    background-color:#00FF00;
+    color: #000000;
+    border: 2px solid #00FF00;
+    text-shadow: #000000;
+}
+
+.btn:hover {
+    background-color: #262626;
+    transition: .5s;
+    border: 2px solid #00FF00;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    color: #00FF00;
+    font-weight: 800;
+}
+
+.logo-icon {
+    color: #00FF00;
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.nav-item a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #00FF00
+}
+
+.text-center{
+    color:#dfdddd
+}
+
+.my-title {
+    color: #00FF00;
+    font-weight: 700;
+
+}
+
+
+.sobre {
+    min-height: 75vh;
+}
+
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-blue-1);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.icones {
+    padding: 50px 10px 5px 100px;
+}
+
+.card {
+    transition: .5s
+}
+
+.my-1 card-body {
+    background-color: #262626;
+}
+
+.form-label{
+    color:#00FF00;
+}
+
+.card-text {
+    color: #c7c7c7;
+}
+
+.card-title {
+    color: var(--bg-blue-1);
+}
+
+.solucoes {
+    background-color: #262626;
+}
+
+.card:hover {
+    background-color: var(--bg-blue-2);
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-blue-1);
+    transition: .5s;
+}
+
+.icon-social:hover {
+    color: #F6F9FF;
+}
+.logo-text:hover{
+    color: #F6F9FF;
+    }
+
+.nav-link:hover{
+    color: #F6F9FF;
+}
+
+.navbar-toggler{
+    color:#00FF00
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+
+@media(max-width:959px) {
+    #sobre{
+        text-align: center;
+    }
+}
+
+h1{
+    font-family: 'belanosima',sans-serif;
+}
